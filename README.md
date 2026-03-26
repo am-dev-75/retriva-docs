@@ -124,7 +124,6 @@ Creation of a usable but unoptimized first version.
 %%config:
 %%  theme: 'neutral'
 %%---
-
 flowchart LR
 
 %% =========================
