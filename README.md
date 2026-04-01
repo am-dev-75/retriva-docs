@@ -791,4 +791,4 @@ I consider myself essentially approach-agnostic, in the sense that I do not belo
 
 I therefore don’t exclude that I might be trying different approaches during the implementation phase. For sure, I'll start excluding vibe coding as it conflict with my requirement #1.
 
-* [Attempt #1: SDD + Antigravity](./implementations/1.md)
+* [Attempt #1: SDD + Antigravity](./implementations/1/README.md)
