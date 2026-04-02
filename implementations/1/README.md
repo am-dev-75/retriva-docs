@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In order to push the project's AI-assisted philosophy as much as possible, the specifics were not written by hand. Rather, I sent the [design document](./Retriva-SDD_implementation_1.pdf) to MS Copilot (which I had created by brainstorming with Copilot itself) so that it could write the spec files in accordance with Antigravity's conventions.
+In order to push the project's AI-assisted philosophy as much as possible, the specifics were not written by hand. Rather, I sent the [design document](./Retriva-SDD_implementation_1.pdf) to MS Copilot so that it could write the spec files in accordance with Antigravity's conventions (interestingly, I had created the design document by brainstorming with Copilot itself!).
 
 For security reasons, I installed a VirtualBox virtual machine running Ubuntu 24.04 on my development host — which runs Ubuntu 24.04 as well — and used Antigravity inside it. In this way, I sandboxed the agentic tool to prevent it from unintentionally compromising the host operating system. I used a condivisa directory to exchange files between the host and the guest:
 
