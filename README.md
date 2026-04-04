@@ -1,5 +1,4 @@
 # Project Retriva's documentation
-
 - [Project Retriva's documentation](#project-retrivas-documentation)
   - [Introduction](#introduction)
   - [Design](#design)
