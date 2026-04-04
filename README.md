@@ -1,4 +1,7 @@
+![](assets/20260404_143623_Retriva_logo_white_background_small.jpg)
+
 # Project Retriva's documentation
+
 - [Project Retriva's documentation](#project-retrivas-documentation)
   - [Introduction](#introduction)
   - [Design](#design)
@@ -784,7 +787,6 @@ The table below provides a brief comparison of the two approaches.
 | Source of Truth | Ephemeral chat history                                                 | Persistent, version-controlled spec  |
 | Best Use Case   | Prototypes and "software for one"	Enterprise systems and team projects | Enterprise systems and team projects |
 | Developer Role  | Prompting and debugging                                                | Architecting and governing intent    |
-
 
 I consider myself essentially approach-agnostic, in the sense that I do not belong to the camp of those who demonize or, conversely, glorify one approach over another. I think that, as usual in engineering, is a matter of trading off. Depending on the needs and available resources, one does one's best to balance the various—often conflicting—requirements.
 
