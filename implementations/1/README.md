@@ -4,12 +4,13 @@
   - [Introduction](#introduction)
   - [Agents at work](#agents-at-work)
   - [Testing and debugging](#testing-and-debugging)
-    - [Testbed](#testbed)
+    - [Testbed #1](#testbed-1)
       - [Starting vLLM locally](#starting-vllm-locally)
       - [Starting Qdrant locally](#starting-qdrant-locally)
     - [Debugging](#debugging)
       - [Ingestion](#ingestion)
       - [Inference](#inference)
+    - [Testbed #2](#testbed-2)
 
 ## Introduction
 
@@ -68,7 +69,7 @@ Even in the age of artificial intelligence, it seems that the testing and debugg
 
 As planned, in this very early phase, I used local models for the sake of simplicity and cost-effectiveness. Performance was not a priority at this stage. Instead, the goal was to verify the system’s core functionalities. Therefore, I did not pay too much attention to the LLMs used.
 
-### Testbed
+### Testbed #1
 
 The testbed is shown in the following image.
 
@@ -547,7 +548,7 @@ docker.io/qdrant/qdrant:latest
  / _` |/ _` | '__/ _` | '_ \| __| 
 | (_| | (_| | | | (_| | | | | |_  
  \__, |\__,_|_|  \__,_|_| |_|\__| 
-    |_|       
+    |_|   
 
 Version: 1.17.1, build: eabee371
 Access web UI at http://localhost:6333/dashboard
@@ -880,3 +881,20 @@ Improve the prompt to explicitly instruct the model to focus on substance, not j
 Reduce top_k from 5 to 3 to reduce noise for a small model.
 Reduce chunk size to make retrieved context more focused.
 Would you like me to proceed with the prompt and retrieval improvements, or would you prefer to first try with a larger model?*
+
+### Testbed #2
+
+This test bed is architecturally like the #1, with the following notable differences:
+
+* models are served remotely via OpenRouter
+* embedding model is `baai/bge-m3`, therefore vector's dimension is 1024
+* chat model is `qwen/qwen3.5-27b`
+*
+
+![](assets/20260409_001540_retriva_q-and-a_00.png)
+
+The `top_k` parameter for the retriever ios set to 200:
+
+```
+[20260408 05:38:24] [DEBUG] [retriva.indexing.qdrant_store] Searching top_200 chunks in 'retriva_chunks'...
+```

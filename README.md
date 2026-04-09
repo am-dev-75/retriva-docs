@@ -13,6 +13,7 @@
     - [Stage #4](#stage-4)
     - [Stage #5](#stage-5)
   - [Implementation](#implementation)
+    - [Conclusion of the v0.1 implementation](#conclusion-of-the-v01-implementation)
 
 ## Introduction
 
@@ -793,3 +794,9 @@ I consider myself essentially approach-agnostic, in the sense that I do not belo
 I therefore don’t exclude that I might be trying different approaches during the implementation phase. For sure, I'll start excluding vibe coding as it conflict with my requirement #1.
 
 * [Attempt #1: SDD + Antigravity](./implementations/1/README.md)
+
+### Conclusion of the v0.1 implementation
+
+Prima di partire con il progetto, avevo impotizzato di procedere con estrema gradualità e che avrei dovuto sperimentare più approcci e più filosofie di implemtazione prima di ottenere una certa confidenza di essere sulla strada giusta. Per questo ho creato il repository [retriva_impl_1_v0.1](https://github.com/am-dev-75/retriva_impl_1_v0.1): il nome stesso voleva suggerire che questo sarebbe stato il primo di svariati tentativi e che ci sarebbero stare parecchie versioni sperimentali. Devo dire però che, grazie alla potenza degli strumenti AI oggi disponibili che consentono una efficiacia e una efficienza senza precedenti, mi sento di poter chiudere questa fase sperimentale preliminare con la versione 0.1 e di passare quindi ad un nuovo repository. Quest'ultimo, partendo dalla code base attuale, dovrebbe contenere tutti gli sviluppi da ora in avanti.
+
+20260409 --AM
