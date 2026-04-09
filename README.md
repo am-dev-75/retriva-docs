@@ -13,7 +13,9 @@
     - [Stage #4](#stage-4)
     - [Stage #5](#stage-5)
   - [Implementation](#implementation)
-    - [Conclusion of the v0.1 implementation](#conclusion-of-the-v01-implementation)
+    - [Attempt #1 (v0.1)](#attempt-1-v01)
+      - [Conclusion of the v0.1 implementation](#conclusion-of-the-v01-implementation)
+    - [Subsequent developments](#subsequent-developments)
 
 ## Introduction
 
@@ -793,10 +795,16 @@ I consider myself essentially approach-agnostic, in the sense that I do not belo
 
 I therefore don’t exclude that I might be trying different approaches during the implementation phase. For sure, I'll start excluding vibe coding as it conflict with my requirement #1.
 
-* [Attempt #1: SDD + Antigravity](./implementations/1/README.md)
+### Attempt #1 (v0.1)
 
-### Conclusion of the v0.1 implementation
+For this first attempt, I tool the opportunity to experiment with Google Atigravity. For  more technical details, see [here](./implementations/1/README.md).
 
-Prima di partire con il progetto, avevo impotizzato di procedere con estrema gradualità e che avrei dovuto sperimentare più approcci e più filosofie di implemtazione prima di ottenere una certa confidenza di essere sulla strada giusta. Per questo ho creato il repository [retriva_impl_1_v0.1](https://github.com/am-dev-75/retriva_impl_1_v0.1): il nome stesso voleva suggerire che questo sarebbe stato il primo di svariati tentativi e che ci sarebbero stare parecchie versioni sperimentali. Devo dire però che, grazie alla potenza degli strumenti AI oggi disponibili che consentono una efficiacia e una efficienza senza precedenti, mi sento di poter chiudere questa fase sperimentale preliminare con la versione 0.1 e di passare quindi ad un nuovo repository. Quest'ultimo, partendo dalla code base attuale, dovrebbe contenere tutti gli sviluppi da ora in avanti.
+#### Conclusion of the v0.1 implementation
+
+Before starting the project, I had assumed that I would proceed very gradually and that I would need to experiment with various approaches and implementation philosophies before feeling confident that I was on the right track. That’s why I created the repository [retriva_impl_1_v0.1](https://github.com/am-dev-75/retriva_impl_1_v0.1): the name itself was meant to suggest that this would be the first of several attempts and that there would be quite a few experimental versions. I must say, however, that thanks to the power of the AI tools available today—which enable unprecedented effectiveness and efficiency—I feel confident in closing this preliminary experimental phase with version 0.1 and moving on to a new repository. This new repository, starting from the current codebase, should contain all future developments.
 
 20260409 --AM
+
+### Subsequent developments
+
+![This](assets/retriva_final_architecture.drawio.png)
